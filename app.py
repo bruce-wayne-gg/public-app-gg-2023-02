@@ -1,16 +1,6 @@
 import antigravity
 
-CERT="""-----BEGIN EC PRIVATE KEY-----
-Proc-Type: 4,ENCRYPTED
-DEK-Info: AES-256-CBC,2C9664EB746DCAABEB464A4C317FBDF1
-
-EWYkzaGogt3C+r3mzlaXfagPMGNdIpQ/eq2ASBqFWD6+ST4Iz/Q0arZ8knwFk7Oq
-yLRxmIppFua3XA4w5rJcT/uEQIdabf1jZ2bXtzxFfeuR9hv8pdfdCqI5IrP3vlLf
-TB1otBeVscGu0YCOZxhtmDT++5xUv5oaADjKRTM3O4Gnk23XrR0VIlVKaDH/UdQg
-eaF1yKgcgi8PigvqKMDokNotMjJDQMAvtPSPfui1sMI6cJMYPMKRpvchflv/RnWx
-eGB5waVoQ8+OBDw9rs2wTxaVfvCI/s20en0vwcjnTHA=
------END EC PRIVATE KEY-----
-"""
+SEED=b9a5ec9d-327f-4e0b-bf9f-b89554d032cb
 
 def main():
     antigravity.fly()
